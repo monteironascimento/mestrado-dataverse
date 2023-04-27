@@ -1,0 +1,48 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	ecosistemas_servicos		ecosistemas servicos ecossitemicos	https://localhost:8085/schema/ecosistemas/												
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	DOI	DOI	The ricardo main title of the Dataset		text	0		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Year	Year	The ricardo main title of the Dataset		int	1		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	country	country	The ricardo main title of the Dataset		text	2		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Locality	Locality	The ricardo main title of the Dataset		text	3		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Env_class	Env_class	The ricardo main title of the Dataset		text	4		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Env_name	Env_name	The ricardo main title of the Dataset		text	5		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Study_type	Study_type	The ricardo main title of the Dataset		text	6		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Study_class	Study_class	The ricardo main title of the Dataset		text	7		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Taxa	Taxa	The ricardo main title of the Dataset		text	8		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Order_family	Order_family	The ricardo main title of the Dataset		text	9		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Species	Species	The ricardo main title of the Dataset		text	10		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	Biotic	Biotic	The ricardo main title of the Dataset		text	11		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Abiotic	Abiotic	The ricardo main title of the Dataset		text	12		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	start_year	start_year	The ricardo main title of the Dataset		int	13		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	end_year	end_year	The ricardo main title of the Dataset		int	14		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Sample_sites	Sample_sites	The ricardo main title of the Dataset		int	15		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	species_list	species_list	The ricardo main title of the Dataset		int	16		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	species_list_supp	species_list_supp	The ricardo main title of the Dataset		int	17		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	index	index	The ricardo main title of the Dataset		text	18		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Coordinates	Coordinates	The ricardo main title of the Dataset		int	19		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	coordinate_type	coordinate_type	The ricardo main title of the Dataset		text	20		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+	coordinate_quality	coordinate_quality	The ricardo main title of the Dataset		text	21		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo	
+	Quantitative_data	Quantitative_data	The ricardo main title of the Dataset		text	22		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		ecosistemas_servicos	http://purl.org/dc/terms/ricardo
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	Env_class	River	D0	0											
+	Env_class	Stream	D1	1	
+	Study_type	Field	D3	0											
+	Study_type	Database	D4	1		
+	Study_class	Ecosystem health	D5	0											
+	Study_class	Conservation	D6	1	
+	Study_class	Ecotoxicology	D7	2											
+	Study_class	Biomonitoring	D8	3	
+	Species	Multiple	D9	0											
+	Species	Unique	D10	1		
+	coordinate_type	textual	D11	0											
+	coordinate_type	figure  	D12	1	
+	coordinate_type	figure_only	D13	3											
+	coordinate_type	figure_only_supp  	D14	4	
+	coordinate_type	supplementary  	D21	5	
+	coordinate_quality	moderate	D15	0											
+	coordinate_quality	low  	D16	1	
+	coordinate_quality	high  	D17	2	
+	Quantitative_data	partial	D18	0											
+	Quantitative_data	absent  	D19	1	
+	Quantitative_data	present  	D20	2	
